@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.banner-container{
+    width: 1440px;
+    min-height: 652px;
+   border: 2px solid red;
+   margin: 0 auto;
+   background-image:url("/assets/Hero-bg.png");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.cover-pic{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+h1{
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    font-size: xx-large;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 20;
+    font-size: larger;
+}
+.btn{
+    position:relative;
+    background-color: indigo;
+    border-radius: 2px;
+    margin:10px;
+    padding:10px;
+    
+}
+
